@@ -3,10 +3,11 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import { HelloWorld, MessageBox } from '@lib/ui';
+import { logMessage } from '@lib/utils';
 
 function App() {
   const [count, setCount] = useState(0);
-
+  logMessage('hello from todo app');
   return (
     <>
       <MessageBox message="hello world" />

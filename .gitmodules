@@ -1,3 +1,6 @@
 [submodule "packages/component-lib"]
 	path = packages/component-lib
 	url = https://github.com/jasondhoman/component-lib.git
+[submodule "packages/util-lib"]
+	path = packages/util-lib
+	url = https://github.com/jasondhoman/util-lib.git

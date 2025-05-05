@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "nx build @lib/ui",
+    "prebuild": "pnpm run -recursive -filter \"./packages/**\" build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@lib/ui": "workspace:*",
+    "@lib/utils": "workspace:*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

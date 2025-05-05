@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@lib/ui':
         specifier: workspace:*
-        version: link:packages/component-library
+        version: link:packages/component-lib
       react:
         specifier: ^19.0.0
         version: 19.1.0
@@ -55,7 +55,7 @@ importers:
         specifier: ^6.3.1
         version: 6.3.4(yaml@2.7.1)
 
-  packages/component-library:
+  packages/component-lib:
     dependencies:
       react:
         specifier: ^19.0.0
